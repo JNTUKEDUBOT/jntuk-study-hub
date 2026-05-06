@@ -6,4 +6,13 @@
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig();
+// SPA mode: produces a static client build (dist/client) with index.html that
+// can be hosted on any static host (Vercel, Firebase Hosting, Netlify, S3, etc.)
+// without a server runtime. All routes are served from index.html via SPA fallback.
+export default defineConfig({
+  tanstackStart: {
+    spa: {
+      enabled: true,
+    },
+  },
+});
