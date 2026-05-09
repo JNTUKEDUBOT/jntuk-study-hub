@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "postbuild": "node ./scripts/generate-client-index.js",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "deploy:ci": "npx firebase deploy --only hosting --token \"$FIREBASE_TOKEN\"",
