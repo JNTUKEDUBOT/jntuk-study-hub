@@ -4,6 +4,12 @@ import { StartClient } from "@tanstack/react-start/client";
 import { RouterProvider } from "@tanstack/react-router";
 import { getRouter } from "./router";
 
+declare global {
+  interface Window {
+    $_TSR?: { router?: unknown };
+  }
+}
+
 function renderStaticFallback() {
   const rootElement = document.getElementById("root");
   if (!rootElement) {
