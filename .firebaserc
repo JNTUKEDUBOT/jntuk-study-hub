@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "edubot-56ab2",
-    "staging": "edubot-56ab2"
+    "default": "jntuk-edubot",
+    "staging": "jntuk-edubot"
   },
   "targets": {},
   "etags": {}
