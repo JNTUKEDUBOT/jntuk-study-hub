@@ -1,7 +1,7 @@
 {
   "projects": {
     "default": "jntuk-edubot",
-    "staging": "jntuk-edubot"
+    "staging": "jntuk-edu-final-db3f5"
   },
   "targets": {},
   "etags": {}
